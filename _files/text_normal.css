@@ -1,0 +1,362 @@
+h1 {
+        font-weight: bold;
+        font-size: 1.3em;
+        line-height: 1.0em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+}
+
+h2 {
+        font-weight: bold;
+        font-size: 1.0em;
+        line-height: 1.0em;
+}
+.h2svart {
+        font-weight: bold;
+        font-size: 0.8em;
+        line-height: 1.0em;
+}
+
+.h2svart2 {
+        font-weight: bold;
+        font-size: 0.9em;
+        line-height: 1.0em;
+}
+
+h3 {
+        font-weight: bold;
+        font-size: 0.8em;
+        line-height: 1.0em;
+}
+
+
+h4 {
+        font-weight: bold;
+        font-size: 1.0em;
+        line-height: 1.0em;
+}
+
+h5 {
+        font-weight: bold;
+        font-size: 0.8em;
+        line-height: 1.0em;
+}
+
+.field td, 
+.field p, 
+.field li {
+        font-size: 0.8em;
+        line-height: 1.2em;
+}
+
+.placeA a {
+        font-weight: bold;
+}
+
+.placeA li a {
+        text-decoration: none;
+        font-weight: normal;
+}
+
+.placeA li a:hover {
+        text-decoration: underline;
+}
+
+.placeA caption {
+        font-weight: bold;
+        font-size: 0.8em;
+        line-height: 1.2em;
+}
+
+.placeA th {
+        font-weight: bold;
+        font-size: 0.8em;
+        line-height: 1.2em;
+}
+
+.placeA td, 
+.placeA th, 
+.placeA p, 
+.placeA li {
+        font-size: 0.8em;
+        line-height: 1.2em;
+}
+
+.templateStart .placeA td,
+.templateStart .placeA p,
+.templateStart .placeA li,
+.placeA .newsListSmall li {
+        font-size: 0.7em;
+        line-height: 1.2em;
+}
+
+.placeB caption {
+        font-weight: bold;
+        font-size: 0.7em;
+        line-height: 1.2em;
+         background-color: #FFFFFF;
+}
+
+.placeB th {
+        font-weight: bold;
+        font-size: 0.7em;
+        line-height: 1.2em;
+        background-color: #FFFFFF;
+}
+
+.placeB td, 
+.placeB p,
+.placeB li {
+        font-size: 0.7em;
+        line-height: 1.2em;
+}
+
+.placeD,
+.placeE, 
+.placeF ul{
+        font-size: 0.8em;
+        line-height: 1.2em;
+}
+
+.contentFoot {
+        font-size: 0.7em;
+}
+
+.contentList {
+        font-size: 0.8em;
+	line-height: 1.2em;
+}
+
+.customFoot {
+        font-size: 0.8em;
+        line-height: 1.2em;
+}
+
+
+.placeA .head, 
+.placeA .headMiddle {
+        font-weight: bold;
+        font-size: 0.8em;
+        line-height: 1.0em;
+}
+
+.placeB .head, 
+.placeB .headMiddle {
+        font-weight: bold;
+        font-size: 0.8em;
+        line-height: 1.0em;
+}
+
+div.headToolbarMenu {
+        font-size: 0.7em;
+        line-height: 1.2em;
+}
+
+div.menuSubHead {
+        font-size: 0.8em; /* 0.7em Svensson  */
+        font-weight: bold;
+        line-height: 2.0em;
+}
+
+div.menuSubHeadTwoRows {
+   		 padding-top: 1px;
+   		 padding-bottom: 3px;
+  	   font-size: 0.9em; 
+  		 font-weight: bold;
+  		 line-height: 1.0em;
+       text-align: center;
+       vertical-align: middle;
+}
+
+div.menuSubPlate {
+        font-size: 0.8em;
+        font-weight: bold;
+        line-height: 2.0em;
+}
+
+div.quickLaunch p {
+        font-weight: bold;
+        font-size: 0.8em;
+}
+
+
+.menuItem, 
+.menuItemSelected {
+        font-size: 0.8em;
+        line-height: 16px;
+}
+
+.startBottomCenterHeadDiv,
+.startBottomLeftHeadDiv, 
+.startBottomRightHeadDiv {
+        font-weight: bold;
+        font-size: 0.8em;
+        line-height: 1.2em;
+}
+.contentMainboxtTdSr {
+        font-size: 1.5em;
+        line-height: 1.2em;
+}
+
+ul.mainnav {
+        font-size: 0.7em;
+        line-height: 1.3em; /* 1.0 */
+}
+
+
+
+.placeALU  td {      
+        font-size: 0.9em;
+        line-height: 1.2em;
+        padding: 5px;
+
+}
+
+.lubas_list {
+	margin-bottom: 2px;
+}
+
+.lubas_list a {
+	line-height: 16px;
+}
+
+/*  calendar */
+div.calendar table th {
+	font-size: 0.7em;
+	line-height: 0.7em;
+} 
+.placeB .calendar .nav {
+	font-size: 0.7em;
+}
+
+
+		/* ******************************************************************** */
+		/*									*/
+		/*			Anstalld.t layout				*/
+		/*									*/
+		/* ******************************************************************** */
+
+.startA .kalendarium .date,
+.date,
+.anstalld .date
+{
+	font-style: italic;
+	font-size: 0.85em;
+}
+
+.calendarList .date
+{
+	font-style: normal;
+	font-weight: bold;
+}
+
+.newsTop,
+.newsShow
+{
+	font-size: 0.7em;
+}
+
+/*		fulhack			*/
+.anstalld .newsTop
+{
+	font-size: 0.67em;
+}
+.anstalld .kalendarium,
+.anstalld .newsLatest
+{
+	font-size: 0.85em;
+}
+.anstalld .kalendarium .date
+{
+	font-size: 1.0em;
+}
+
+/*		//fulhack		*/
+
+.anstalld .newsLatest .headline,
+.anstalld .newsLatest .headline a,
+.anstalld .kalendarium .headline,
+.anstalld .kalendarium .headline a
+{
+	font-size: 1.1em;
+}
+
+.anstalld a:hover,
+.comment a:hover,
+.anstalld .comment a:hover
+{
+	text-decoration: underline ! important;
+}
+
+.headline,
+.headline a
+{
+	line-height: 1.2em;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.newsTop .headline,
+.newsTop .headline a,
+.newsShow .headline,
+.newsShow .headline a
+{
+	font-size: 1.15em;
+}
+
+.headline a:hover
+{
+	text-decoration: underline;
+}
+
+.follow,
+.follow a
+{
+	text-decoration: none;
+}
+.follow a:hover
+{
+	text-decoration: underline;
+}
+
+.anstalld .showTitle {
+        font-weight: bold;
+        font-size: 1.1em;
+        line-height: 1.0em;
+}
+
+.anstalld .nyhetsarkiv
+{
+	text-decoration: underline;
+}
+
+.ingress,
+.newsShow .ingress
+{
+	font-weight: bold;
+}
+
+.newsShow p,
+.newsShow h1,
+.newsShow h2,
+.newsShow h3,
+.newsShow h4
+{
+	font-size: 1.0em;
+}
+
+.newsShowImage
+{
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+.newsList .comment p
+{
+	font-size: 1.0em;
+}
+
+.underline a
+{
+	text-decoration: underline ! important;
+}

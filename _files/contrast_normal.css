@@ -1,0 +1,659 @@
+h1, h2, h4, th
+{
+	color: #996633;  
+}
+
+h3, h5,
+.h2svart, .h2svart2  {
+        color: #000000;
+}
+
+a
+{
+	color: #000080;
+}
+
+input[type="text"], 
+select,  
+textarea {
+        background-color: #FFFFFF;
+        border: 1px solid black;
+        color: #000000;
+}
+
+ legend { 
+ color:#000000; 
+ } 
+
+
+.path a {
+        background-image: url(../graphics/arrow_icon_right_blue.gif);
+}
+
+.placeA .oddRow td {
+        background-color: #F9F9F9;
+}
+
+.placeB .oddRow td {
+        background-color: #DCD0C5;
+}
+
+.contentMain {
+        color: #000000;
+}        
+
+.contentSub {
+        color: #000000;
+}                
+
+.contentFoot {
+        color: #FFFFFF;
+}                
+
+.placeA .head, 
+.placeA .headMiddle {
+        background-color: #a5bdd6;
+        background-image : url(../graphics/head_corner_blue.gif);
+        background-repeat: no-repeat;
+        background-position: top right;
+        color: #FFFFFF;
+}
+
+.placeB .head, 
+.placeB .headMiddle {
+        background-color: #996633;
+        color: #FFFFFF;
+}
+
+.placeB .head {
+        background-image : url(../graphics/head_corner_brown.gif);
+        background-repeat: no-repeat;
+        background-position: top left;
+}
+
+.placeB b {
+        color: #996633;
+}
+
+.topTd {
+        background-color: #EFF7FF;
+}
+
+div.headToolbar
+{
+        background-image : url(../graphics/corner_top_left.gif);
+        background-repeat: no-repeat;
+        background-position: top left;
+	background-color: #EFF7FF;
+}
+
+div.headToolbarMenu
+{
+	color: #000080;
+}
+div.headToolbarMenu a
+{
+        color: #000080;
+}
+
+a#first {
+        background-image : url(../graphics/icon_adjust.gif);
+}
+
+a#second {
+        background-image : url(../graphics/se_icon_blue.gif);
+}
+
+a#third {
+        background-image : url(../graphics/icon_webmap.gif);
+}
+
+a#indexSE {
+        background-image : url(../graphics/index_swe.gif);
+}
+
+a#indexENG {
+        background-image : url(../graphics/index_eng.gif);
+}
+a#omwww {
+        background-image : url(../graphics/om_www.gif);
+}
+a#langsv {
+        background-image : url(../graphics/icon_maps.gif);
+}        
+
+a#langSVtext {
+        background-image : url(../graphics/sv_icon_blue.gif);
+}        
+
+a#langENGtext {
+        background-image : url(../graphics/en_icon_blue.gif);
+}        
+
+a#fourth {
+        background-image : url(../graphics/icon_advsearch.gif);
+}
+
+a#back {
+        background-image : url(../graphics/arrow_icon_left_blue.gif);
+}
+
+a#forward, 
+a#read {
+        background-image : url(../graphics/arrow_icon_right_blue.gif);
+}
+
+
+div.headToolbarSearch {
+/*        background-color:#a5bdd6; */
+        background-image : url(../graphics/corner_top_right.gif);
+        background-repeat: no-repeat;
+        background-position: top right;
+}
+
+div.menu {
+        background-color: #a5bdd6;
+}
+        
+div.quickLaunch {
+/*        background-color: #a5bdd6;*/
+        color: #000000;    /* Tidigare vitt på "Gå direkt till" color: #FFFFFF; */
+}
+
+div.menuSubHead,
+ div.menuSubHead a {
+        color: #FFFFFF;
+}
+
+div.menuSubHead {
+        color: #FFFFFF;
+}
+        
+div.menuSubPlate a,
+div.menuSubPlate {
+        background-color: #000080;
+        color: #FFFFFF;
+}
+
+div.mainMenu {
+        background-color: #000080;
+/*        border-bottom:5px solid #000080; */
+} 
+
+div.mainMenuSelected {
+        background-color: #000080;
+        border-bottom:5px solid #996633;
+}
+
+.menuItem a , 
+.menuItemSelected a {
+        color: #FFFFFF;
+}
+
+.menuItemSelected {
+        background-color: #996633; 
+}
+
+.leftTd
+{
+        background-color: #A5BDD6;
+}
+
+.rightTd
+{
+        background-color: #FFFFFF;
+        border-right:3px solid #91a9c2;
+}
+
+.leftColBg
+{
+	background-image: url(../graphics/normal_bg.gif);
+	background-repeat: repeat-y;
+	background-position: top left;
+}
+
+.leftColBgStart
+{
+	background-image: url(../graphics/top_bg.gif);
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+
+.newsBg
+{
+	background-image: url(../graphics/news_bg.gif);
+	background-position: top right;
+	background-repeat: repeat-y;
+}
+
+.newsBgcd
+{
+	background-image: url(../graphics/news_bg_cd.gif);
+	background-position: top right;
+	background-repeat: repeat-y;
+}
+
+.startBottomShadow {
+	height: 11px;
+	background-image: url(../graphics/bottom_shadow_bg_low.gif);
+	background-repeat: no-repeat;
+	background-position: top right;
+	overflow: hidden;
+}
+
+.templateMain .placeB {
+        background-color: #EEEBE8;
+}
+
+.templateMain .bottomPlaceB {
+        background-color: #EEEBE8;
+        background-image : url(../graphics/push_bottom.gif);
+        background-repeat: no-repeat;
+        background-position: bottom left;
+}
+
+.bottomTd {
+        background-color: #a5bdd6;
+        background-image : url(../graphics/corner_bottom_left.gif);
+        background-repeat: no-repeat;
+        background-position: bottom left;
+}
+
+.bottomTdBronze {
+        background-color: #996633;
+        background-image : url(../graphics/corner_bottom_left_b.gif);
+        background-repeat: no-repeat;
+        background-position: bottom left;
+} 
+
+div.mainFootDiv {
+/*        border-bottom:3px solid #91a9c2;  */
+        border-right: 3px solid #91a9c2;
+}
+
+div.startFootDiv {
+/*
+        border-bottom:3px solid #91a9c2;
+*/
+        border-right: 3px solid #91a9c2;
+}
+
+.startLeftTd{
+	/*background-color: #A5BDD6;*/
+
+        /*background-image : url(../graphics/corner_long_bottom_left.gif);*/
+        background-repeat: no-repeat;
+        background-position: bottom left;
+
+}
+
+.startCenterTd{
+	background-color: #FFFFFF;
+	padding: 15px;
+	margin: 0px;
+	
+/*        background-color: #EFF7FF; changed 070703 by henrik@24hr.se */
+/*        border-bottom:3px solid #91a9c2; */
+}
+
+.startRightTd{
+        background-color: #91a9c2;
+/*
+	background-image : url(../graphics/corner_long_bottom_right.gif);
+        background-repeat: no-repeat;
+        background-position: bottom right;
+*/
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;			
+	margin: 0px;
+        padding-right: 3px; 
+/*        padding-bottom: 3px; */
+        
+}
+
+
+.startBottomCenterTd{
+        background-color: #FFFFFF;
+}
+
+div.startBottomCenterHeadDiv a, 
+div.startBottomCenterHeadDiv {
+        background-color: #996633;
+        color: #FFFFFF;
+}
+
+
+div.startBottomLeftHeadDiv {
+        background-image : url(../graphics/corner_bottom_head_left.gif);
+        background-repeat: no-repeat;
+        background-position: top left;
+	background-color: #996633;
+        color: #FFFFFF;		
+}
+
+div.startBottomLeftHeadDiv a {
+        color: #FFFFFF;
+}
+
+
+
+ .templateStart .startCenterTd .placeD h1{
+background-image:url(../graphics//images/valjvagenratt_utantext.gif);
+background-repeat: no-repeat;   
+color: #FFFFFF; 
+font-weight: bold;
+font-size: 2.2em;
+padding-left:50px;
+padding-top:15px;
+padding-bottom: 20px;
+ }
+        
+
+div.startBottomCenterHeadDiv h2,
+div.startBottomLeftHeadDiv h2 {
+  background-color: #996633;
+  color: #FFFFFF;
+  padding-top: 1px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;			
+	margin: 0px;
+  padding-right: 0px; 
+}
+div.startBottomRightHeadDiv h2 {
+  background-color: #996633;
+  width: 160px;
+  color: #FFFFFF;
+  padding-top: 1px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;			
+	margin: 0px;
+  padding-right: 0px; 
+  
+}
+
+.startBottomRightTd {        
+        background-color: #EFF7FF;
+        background-image : url(../graphics/start_blue_border_background.gif);
+        background-repeat: repeat-y;
+        background-position: top right;
+}
+
+div.startBottomRightHeadDiv a {
+        color: #FFFFFF;
+}
+
+div.startBottomRightHeadDiv{
+        background-image: url(../graphics/start_brown_blue_background.gif);
+        background-repeat: no-repeat;
+        background-position: top right;
+        color: #FFFFFF;                
+}
+
+
+
+.placeB .calendar {
+        background-color: #CCCCCC;
+}
+
+.placeB .calendar .days {
+        background-color: #999999;
+        color: #EEEEEE;
+}
+
+.placeB .calendar .nav {
+        background-color: #EEEBE8;
+}
+
+.placeB .calendar .weekday {
+        background-color: #FFFFFF;
+        color: #666666;
+}
+
+.placeB .calendar .saturday {
+        background-color: #EEEEEE;        
+        color: #666666;
+}
+
+.placeB .calendar .sunday {
+        background-color: #DDDDDD;        
+        color: #666666;
+}
+
+.placeB .calendar .thisday {
+        background-color: #CDC1B6;        
+}
+
+.placeB .calendar .yesterday {
+        color: #666666;        
+}
+
+.placeA ul.iconlist li, 
+.placeA ul.iconList li, 
+.placeA ul.wideIconList li a, 
+.placeA ul.compactIconList li a {
+        background-image: url(../graphics/arrow_icon_right_blue.gif);
+}
+
+.placeB ul.iconlistword li,
+.placeA ul.iconlistword li,
+.placeB ul.iconListWord li,
+.placeA ul.iconListWord li {
+        background-image: url(../graphics//objects/Lista/images/word.gif);
+}
+
+.placeB ul.iconlistpdf li,
+.placeA ul.iconlistpdf li,
+.placeB ul.iconListPdf li,
+.placeA ul.iconListPdf li {
+        background-image: url(../graphics//objects/Lista/images/pdf.gif);
+}
+
+.placeB ul.iconlistexcel li,
+.placeA ul.iconlistexcel li,
+.placeB ul.iconListExcel li,
+.placeA ul.iconListExcel li {
+        background-image: url(../graphics//objects/Lista/images/excel.gif);
+}
+
+.placeB ul.iconlistpowerpoint li,
+.placeA ul.iconlistpowerpoint li,
+.placeB ul.iconListPowerpoint li,
+.placeA ul.iconListPowerpoint li {
+        background-image: url(../graphics//objects/Lista/images/powerpoint.gif);
+}
+
+.placeB ul.iconlistdata li,
+.placeA ul.iconlistdata li,
+.placeB ul.iconListData li,
+.placeA ul.iconListData li {
+        background-image: url(../graphics//objects/Lista/images/data.gif);
+}
+
+
+.placeB ul.iconlist li, 
+.placeB ul.iconList li, 
+.placeB ul.wideIconList li a, 
+.placeB ul.compactIconList li a {
+        background-image: url(../graphics/arrow_icon_right_brown_tight.gif);
+}
+
+ul.startIconList li a {
+        background-image: url(../graphics/arrow_icon_right_darkbrown.gif)
+}
+
+ul.calendarIconList li {
+        list-style-image: url(../graphics/arrow_icon_right_blue.gif);
+}
+ul.calendarIconList li .yesterday {
+       color: #666666;
+}
+
+ul.linkIconList li a {
+        background-image: url(../graphics/arrow_icon_right_blue.gif);
+}
+
+ul.langlist li a {
+        background-image: url(../graphics/arrow_icon_right_white.gif);
+        margin-left: 15px;
+}
+
+ul.categorylist li a {
+        background-image: url(../graphics/arrow_icon_right_darkbrown.gif)
+}
+
+li#lang a {
+        background-image: url(../graphics/flag_en.gif);
+}
+
+li#langSE a {
+        background-image: url(../graphics/flag_se.gif);
+}
+
+li#print a {
+        background-image: url(../graphics/icon_print.gif);
+}
+
+li#printPla a {
+        background-image: url(../graphics/icon_print_pla.gif);
+}
+
+li#tip a {
+        background-image: url(../graphics/icon_tip.gif);
+}
+
+ul.mainnav {
+        background-color: #FFFFFF;
+        border-right: 1px solid #c7d6e7;
+}
+
+ul.mainnav li {
+        background-color: #FFFFFF;
+        border-top: 1px solid #c7d6e7;
+}
+
+ul.mainnav li a {
+        color: #000000;
+}
+
+ul.subnav {
+        /*background-color: #eff7ff;*/
+        background-color: #DFEAF6;
+}
+
+ul.subnav li {
+        /*background-color: #eff7ff;*/
+        background-color: #DFEAF6;
+        border-top: 1px solid #c7d6e7;
+}
+
+ul.subnav2 {
+        /*background-color: #c7d6e7;*/
+        background-color: #A3BFDE;
+}
+
+ul.subnav2 li {
+        /*background-color: #c7d6e7;*/
+        background-color: #A3BFDE;
+        border-top: 1px solid #c7d6e7;
+}
+
+ul.mainnav li.active a,
+ul.mainnav li.isunderactive a,
+ul.mainnav li.isunderhassubactive a,
+ul.subnav li.active a,
+ul.subnav li.isunderactive a, 
+ul.subnav li.isunderhassubactive a,
+ul.subnav2 li.active a,
+ul.subnav2 li.isunderactive a,
+ul.subnav2 li.isunderhassubactive a {
+        color: #996633;
+}
+
+ul.subnav li.none a,
+ul.subnav li.nosub a,
+ul.subnav li.hassub a,
+ul.subnav2 li.none a,
+ul.subnav2 li.nosub a,
+ul.subnav2 li.hassub a {
+
+        color: #000000;
+}
+
+
+		/* ******************************************************************** */
+		/*									*/
+		/*			Anstalld.t layout				*/
+		/*									*/
+		/* ******************************************************************** */
+
+.blue {
+	background-color: #eff7ff;
+}
+
+.anstalld a
+{
+/*	color: black;  */
+}
+
+.headline,
+.headline a
+{
+	color: #996633;
+}
+
+.anstalld .newsTop .headline,
+.anstalld .newsTop .headline a,
+.startA .kalendarium .headline,
+.startA .kalendarium .headline a,
+.anstalld .kalendarium .headline,
+.anstalld .kalendarium .headline a
+{
+	color: #000080;
+}
+
+.follow,
+.follow a
+{
+	color: black;
+}
+
+.anstalld .showTitle {
+	color: #000080;
+}
+
+.anstalld .nyhetsarkiv
+{
+	color: black;
+}
+
+.newsLatest .headline a
+{
+	color: #000080;
+}
+
+.newsFuture
+{
+	color: #ffffff;
+	background-color: #ff0000;
+}
+
+
+
+		/* ******************************************************************** */
+		/*									*/
+		/*			LUUR SRU layout					*/
+		/*									*/
+		/* ******************************************************************** */
+
+
+
+.link
+{
+	text-decoration: underline;
+	color: blue;
+	cursor: pointer;
+}

@@ -1,0 +1,1957 @@
+/*      ##################################################################
+        ##################################################################
+        ################################################################## 
+        Default formatting
+*/ 
+
+
+
+
+.pil {
+	padding-left: 20px;
+	text-decoration: none ! important;
+	background: url(../graphics/arrow_icon_right_blue.gif) top left no-repeat;
+	padding-bottom: 2px;
+}
+
+
+
+
+        body {
+                /* Value in custom css */
+                background-color: #c7d6e7;
+                font-style: normal;
+                font-weight: normal;
+		font-size: 100%;
+                font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+                padding: 0;
+                margin-top: 20px;
+                margin-right: 0px; 
+                margin-bottom: 10px; 
+                margin-left: 0px;
+        }
+        
+        form {
+                padding: 0;
+                margin: 0;
+        }
+        
+        td {
+                padding: 0;
+                margin: 0;
+        }
+        
+        div {
+                margin:0;
+                padding:0;
+        }
+        
+        h1 {
+                /* Value in custom css */
+                font-weight: bold;
+                margin-top: 0px;
+                margin-bottom: 0px;
+        }
+        
+        h2 {
+                /* Value in custom css */
+                margin-top: 18px;
+                margin-bottom: 0px;
+        }
+        
+        h3 {
+                /* Value in custom css */
+                margin-top: 3px;
+                margin-bottom: 0px;
+        }
+        
+        h4 {
+                /* Value in custom css */
+                margin-top: 3px;
+                margin-bottom: 0px;
+        }
+        
+        h5 {
+                /* Value in custom css */
+                margin-top: 3px;
+                margin-bottom: 0px;
+        }
+        
+        strong {
+                /* Value in custom css */
+                font-weight: bold;
+        }
+        
+        p {
+                margin-top: 0px;
+                margin-bottom: 10px;
+        }
+        
+        small {
+                margin-top: 0px;
+                margin-bottom: 10px;
+                margin-left: 10px;
+        		color: black;
+        		font-size: 0.8em;
+        }
+        
+        table {
+                padding: 0px;
+
+        }
+        
+				fieldset {
+				 				margin-top: 3px;
+								border-width : 0;
+								border-style : none;
+				}
+        
+        
+        a {
+                /* Value in custom css */
+                text-decoration: none;
+        }
+                
+        a:hover {
+                text-decoration: underline;
+        }
+
+        ul {
+                padding: 0px;
+                padding-left: 20px;
+                margin: 0px;
+                margin-left: 20px;
+                 margin-bottom: 10px; /* 10px ohman */
+        }
+
+		
+	/*	emil	*/
+	.clear
+	{
+		clear: both;
+	}
+	.fl
+	{
+		float: left;
+	}
+	.fr
+	{
+		float: right;
+	}
+
+        /* ohman */
+        .placeA li {
+                padding-bottom: 5px;
+        }
+        .placeB li {
+                padding-bottom: 5px;
+        }
+
+	.comment_hr {
+		border: 0px solid;
+		border-bottom: #cccccc 1px solid;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+        
+/*        ##################################################################
+        Formatting path
+*/
+        .path a {
+                /* Value in custom css */
+                background-repeat: no-repeat;
+                background-position: center left;
+                height: 20px;
+                padding-top: 3px;
+                padding-right: 20px;
+                padding-bottom: 3px; 
+                padding-left: 20px;
+        }
+        
+
+/*        ##################################################################
+        Formatting forms
+*/
+
+        .field {
+                width: 100px;
+        }
+        
+        .placeA .box .field {
+                width: 95%;
+                margin-top: 5px;
+        }
+
+        .placeB .box .field {
+                width: 150px;
+                margin-top: 5px;
+        }
+                .placeB .box .fieldLineSearch {
+                width: 110px;
+                margin-top: 5px;
+        }
+
+
+        .dropdown {
+                margin: 5px 0 5px 0;
+                width: 140px;
+        }
+        
+        .button {
+                font-weight: bold;
+/*                text-transform: uppercase;  ohman */
+                width: 70px;
+        }
+        
+        .placeA .box .button {
+                width: auto;
+        }
+        
+        .placeB .box .button {
+                width: auto;
+        }
+        
+        .placeA form .submit {
+                text-align: right;
+                width: 100%;        
+        }
+        
+/*        ##################################################################
+        ##################################################################
+        ################################################################## 
+        Formatting rows
+*/
+        .oddRow td {
+                padding-left: 20px;
+                padding-right: 10px;
+        }        
+        
+        .evenRow td {
+                background-color: transparent;
+                padding-left: 20px;
+                padding-right: 10px;
+        }
+
+
+/*        ##################################################################
+        ##################################################################
+        ################################################################## 
+        Formatting arrow navig
+*/
+
+        a#back, 
+        a#forward,
+        a#read { 
+                /* Value in custom css */
+                background-repeat: no-repeat;
+                background-position: 1px 4px;     /* center left; ohman */
+                padding-top:3px;
+                padding-right:3px;
+                padding-bottom:3px;
+                padding-left: 20px;
+                text-decoration: none;                
+        }
+
+        a#back:hover, 
+        a#forward:hover,
+        a#read:hover { 
+                text-decoration: underline;
+        }
+
+        
+/*        ##################################################################
+        ##################################################################
+        ################################################################## 
+        Formatting of font and line-height etc
+*/
+        .contentMain {
+                /* Value in custom css */
+        }        
+
+        .contentSub {
+                /* Value in custom css */                
+        }
+        
+        .contentStart {
+                /* Value in custom css */
+        }
+                
+        .contentFoot {
+                /* Value in custom css */        
+                color: #FFFFFF;
+                font-weight: bold;
+                height: 14px;
+                line-height: 14px;
+        }                
+
+         .customFoot p {
+                /* Value in custom css */
+                margin-top: 0px;
+                margin-bottom: 0px;
+                padding-top: 0px;
+                padding-bottom: 0px;
+        }
+
+        
+
+/*        ################################################################## 
+        Formatting of the .placeA pos
+        
+        main.t index.t
+        -------
+        |            |
+        -------
+        | |A  |
+        -------
+        |     |
+        ------- 
+        
+        start.t        
+        -------
+        |     |
+        -------
+        | |   |
+        -------
+        | | | |
+        -------
+        | |A| |
+        -------
+        |     |
+        ------- 
+        
+*/
+
+        .placeA p, 
+        .placeA h1, 
+        .placeA h2, 
+        .placeA h3,
+        .placeA h4,
+        .placeA h5, 
+        .placeA   {
+                padding-left:10px;   /* Tidigare 20px */
+                padding-bottom: 5px;
+        }
+
+	                
+        .placeA .head, 
+        .placeA .headMiddle {
+                /* Value in custom css */
+                margin-top: 0px;
+                margin-right: 0px;
+                margin-bottom: 10px;
+                margin-left: 0px;
+                padding-top: 7px;
+                padding-right: 10px;
+                padding-bottom: 7px;
+                padding-left:10px;   /* Tidigare 20px */
+        }
+                
+        .placeA .box {
+                padding-left: 0px;
+        }
+
+        .templateStart .placeA .box {
+                padding-left: 10px;
+        }
+             .placeA .line {
+                border-top: 1px solid #A5BDD6;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 4px;
+                padding-left: 0px;
+        }
+          .placeA .lineBrons {
+                border-top: 1px solid #996633;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 4px;
+                padding-left: 0px;
+        }
+        
+        
+/*        ################################################################## 
+        Formatting of the .placeB pos
+        
+        main.t index.t
+        -------
+        |     |
+        -------
+        | |  B|
+        -------
+        |     |
+        ------- 
+        
+        start.t        
+        -------
+        |     |
+        -------
+        | |   |
+        -------
+        | | | |
+        -------
+        | | |B|
+        -------
+        |     |
+        ------- 
+*/                        
+        .placeB .head, 
+        .placeB .headMiddle {
+                /* Value in custom css */                                
+                margin-top: 0px;
+                margin-right: 0px;
+                margin-bottom: 0px;
+                margin-left: 0px;
+                padding-top: 7px;
+                padding-right: 10px;
+                padding-bottom: 7px;
+                padding-left: 20px;
+        }
+        
+        .placeB .head {
+                /* Value in custom css */
+        }
+                
+        .placeB .box {
+                padding-top: 10px;
+                padding-right: 10px; 
+                padding-bottom: 10px;
+                padding-left: 20px;
+        }
+        
+        .templateStart .placeB .box {
+                padding-top: 10px;
+                padding-right: 0px; 
+                padding-bottom: 10px;
+                padding-left: 0px;
+        }
+                
+        .placeB .line {
+                border-top: 1px solid #CDC1B6; 
+                padding-top: 0px; 
+                padding-right: 0px;
+                padding-bottom: 0px;
+                padding-left: 0px;
+        }
+        
+        .placeB .calendar {
+                /* Value in custom css */
+                padding-top: 0px;
+                padding-right: 0px; 
+                padding-bottom: 0px;
+                padding-left: 0px;                
+        }
+        
+        .placeB .calendar .days {
+                /* Value in custom css */
+                font-weight: bold;
+
+        }
+        
+        .placeB .calendar .nav {
+                /* Value in custom css */
+        }
+        
+        .placeB .calendar .weekday {
+                /* Value in custom css */        
+        }
+        
+        .placeB .calendar .saturday {
+                /* Value in custom css */        
+        }
+        
+        .placeB .calendar .sunday {
+                /* Value in custom css */        
+        }
+        
+        .placeB .calendar .thisday {
+                /* Value in custom css */
+        }
+        
+        .placeB b {
+                /* Value in custom css */
+        }
+                
+
+/*        ################################################################## 
+        Formatting of the .placeA pos
+        
+        start.t        
+        -------
+        |     |
+        -------
+        | |   |
+        -------
+        | |D| |
+        -------
+        | | | |
+        -------
+        |     |
+        ------- 
+*/
+        
+        .placeD p {
+                padding-left: 20px;  /* 10px ohman */
+                padding-bottom: 5px;
+        }
+                
+        .placeD h1, 
+        .placeD h2, 
+        .placeD h3 {
+                padding-top: 20px; /* 5px ohman */
+                padding-left: 20px; /* 5px ohman */
+                padding-bottom: 5px;
+        }        
+        
+/*        ##################################################################
+        ##################################################################
+        ##################################################################
+        Formatting the table set and div design, not font size etc
+*/        
+
+
+/*        ################################################################## 
+        Formatting middle set of td and div
+        
+        main.t index.t start.t
+        -------
+        |  X  |
+        -------
+        | |   |
+        -------
+        |     |
+        ------- 
+        
+        start.t        
+        -------
+        |  X  |
+        -------
+        | |   |
+        -------
+        | | | |
+        -------
+        | | | |
+        -------
+        |     |
+        ------- 
+                
+        
+*/
+        .topTd{
+                /* Value in custom css */
+        }
+
+        div.headToolbar {
+                /* Value in custom css */
+        }
+        
+        div.headToolbarMenu {
+                /* Value in custom css */
+                padding-top: 7px;
+                padding-right: 0px; 
+                padding-bottom: 0px;
+                padding-left: 15px;
+                
+        }
+        
+        div.headToolbarMenu a {
+                /* Value in custom css */
+                background-repeat: no-repeat;
+                background-position: left;
+                height: 20px;
+                padding-top: 5px; /* 4 ohman */
+/*              padding-right: 10px;  070704 ohman */
+		padding-bottom: 4px;  
+/*              padding-left: 20px; 070704 ohman */
+        }
+        
+        a#first {
+                /* Value in custom css */
+                padding-top: 3px;
+        }
+        
+        a#second {
+                /* Value in custom css */
+                padding-top: 3px;
+        }
+        
+        a#third {
+                /* Value in custom css */
+                padding-top: 3px;
+        }
+        
+        a#fourth {
+                /* Value in custom css */
+                padding-top: 3px;
+        }
+        
+
+        a#indexSE {
+                /* Value in custom css */
+                padding-top: 3px;
+        }
+
+        a#indexENG {
+                /* Value in custom css */
+                padding-top: 3px;
+        }
+
+        a#omwww {
+                /* Value in custom css */
+                padding-top: 3px;
+        }        
+        
+        a#langsv {
+                /* Value in custom css */
+                padding-top: 3px;
+        } 
+        
+        div.headToolbarSearch {
+                /* Value in custom css */
+                float: right;
+                padding-top: 3px;  /* 5 ohman */ 
+                padding-right: 15px; /* 20 ohman */
+                padding-bottom: 6px; /* 5 ohman */
+                padding-left: 0px;
+                text-align:right;
+                width: 340px; /* 196 svensson */ /* 200 ohman */
+                height: 20px;
+        }        
+
+
+
+/*        ################################################################## 
+        Formatting cells at the logo
+        
+        main.t index.t start.t
+        -------
+        |     |
+        -------
+        |X|   |
+        -------
+        |     |
+        ------- 
+
+        start.t        
+        -------
+        |     |
+        -------
+        |X|   |
+        -------
+        | | | |
+        -------
+        | | | |
+        -------
+        |     |
+        ------- 
+        
+*/        
+        div.menuLogo {
+                background-color: #000080;
+        }
+        
+        div.menu {
+                width: 178px;
+                /* Value in custom css */
+        }
+        
+        div.menuHead {
+                background-color: #996633;
+                width: 180px;
+        }
+
+        div.menuSubHead {
+                background-color: #996633;
+                height: 30px;
+                /*padding-top: 3px;*/
+                /*padding: 5px;*/
+                text-align: center;
+                vertical-align: middle;
+                
+        }
+        
+        div.quickLaunch {
+                /* Value in custom css */
+                padding-top: 20px;
+                padding-right: 6px;
+                padding-bottom: 10px;
+                padding-left: 20px;
+        }
+        
+        div.quickLaunch p {
+                /* Value in custom css */
+                margin-bottom: 5px;
+        }
+        
+        div.menuSubPlate {
+                /* Value in custom css */
+                height: 28px; /*30px ohman*/
+                text-align: center; /* left */
+                padding-left: 0px; /* 20px */
+                padding-top: 2px;
+                vertical-align: middle;
+             /*   cursor: hand; */
+        }
+
+        
+        
+/*        ##################################################################
+        Formatting the top navigation
+        
+        main.t index.t 
+        -------
+        |     |
+        -------
+        | | X |
+        -------
+        |     |
+        ------- 
+
+        start.t        
+        -------
+        |     |
+        -------
+        | | X |
+        -------
+        | | | |
+        -------
+        | | | |
+        -------
+        |     |
+        ------- 
+        
+        
+*/
+        
+        div.mainMenu {
+		height: 30px;
+		padding: 0px;
+	} 
+        div.mainMenuSelected {
+                height: 25px;
+                padding: 0px;
+        }
+        
+        .menuItem,
+        .menuItemSelected {
+                /* Value in custom css */
+                font-weight: bold;
+                height: 20px;
+                padding-top: 5px;
+                padding-right: 10px;  /* 15px Svensson */               
+                padding-left: 10px;   /* 15px Svensson */
+
+		border-right: 1px solid #ffffff;
+        }
+
+	.menu_no_border {
+		border-right: 0px;
+	}
+        
+/*        ################################################################## 
+        Formatting main set of td and div
+        
+        main.t index.t
+        -------
+        |     |
+        -------
+        |X| X |
+        -------
+        |     |
+        ------- 
+        
+*/
+        .leftTd{
+                /* Value in custom css */
+                /*width: 178px;*/
+        }
+
+        .rightTd{
+                /* Value in custom css */
+                /*width: 573px;*/
+        }
+                
+        .columnRight {
+                padding-top: 30px;
+                padding-bottom: 30px;
+        }
+
+	.anstalld .columnRight {
+		padding-top: 0px;
+	}
+
+        .templateMain .placeA {
+                padding-top: 30px;
+                padding-right: 40px;
+                padding-bottom: 20px;
+                /*width: 350px;*/
+                
+        }
+
+        .templateMain .columnLeft .placeA .iconList{
+                padding-bottom: 20px;
+                /* Svensson*/
+                
+        }
+         .templateMain .columnLeft .placeA {
+                /*padding-top: 20px;
+                padding-right: 40px;
+                padding-bottom: 0px;*/
+                /* Svensson*/
+                
+        }
+         .templateMain .startBottomCenterTd .placeA .contentStart {
+                padding-top: 0px;
+                padding-right: 30px;
+                padding-bottom: 20px;
+                /* Svensson*/
+                
+        }
+
+    .templateMain .startBottomRightTd .placeB .contentStart {
+     		background-color: #F0F8FF; 
+                padding-top: 30px;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-bottom: 20px;
+                /* Svensson*/
+                
+     }
+        .templateWide .placeA {
+                padding-top: 30px;
+                padding-right: 40px;
+                padding-bottom: 20px;
+                /*width: 480px;*/
+                
+        }
+
+        .templateMain .placeB {
+                /* Value in custom css */
+                padding-right: 0px; 
+                padding-bottom: 0px; 
+                padding-left: 0px;
+                text-align: left;
+                width: 197px;
+
+        }
+
+        .templateMain .bottomPlaceB {
+                /* Value in custom css */
+                padding-right: 0px; 
+                padding-bottom: 4px; 
+                padding-left: 0px;
+                text-align: left;
+                width: 197px;
+
+        }
+
+        .templateMain .placeA .image {
+                padding-left: 20px;
+                padding-bottom: 10px;
+        }
+        
+  .templateMain .placeC {
+                padding-top: 25px;
+        }
+        
+        .templateMain .placeC .image {
+                padding-bottom: 30px;
+        }
+        
+
+/*        ################################################################## 
+        Formatting foot set of td and div
+        
+        main.t index.t
+        -------
+        |     |
+        -------
+        | |   |
+        -------
+        |  X  |
+        ------- 
+        
+        start.t        
+        -------
+        |     |
+        -------
+        | |   |
+        -------
+        | | | |
+        -------
+        | | | |
+        -------
+        |  X  |
+        ------- 
+        
+*/
+        .bottomTd{
+                /* Value in custom css */
+        }                
+                        
+        div.mainFootDiv {
+                /* Value in custom css */
+                margin-left:7px;
+                padding-top: 5px;
+                padding-right: 0px;
+                padding-bottom: 5px;
+                padding-left: 190px;
+                
+        }
+
+        div.startFootDiv {
+                /* Value in custom css */
+                margin-left:7px;
+                padding-top: 5px;
+                padding-right: 0px;
+                padding-bottom: 5px;
+                padding-left: 13px;
+        }
+                
+        
+
+/*        ################################################################## 
+        Formatting td and div upper content  of start.t
+        
+        start.t        
+        -------
+        |     |
+        -------
+        | |   |
+        -------
+        |X|X|X|
+        -------
+        | | | |
+        -------
+        |     |
+        ------- 
+                
+*/
+        .startLeftTd {
+
+        }
+
+        .startCenterTd{
+                /* Value in custom css */
+        }
+
+        .startRightTd{
+                /* Value in custom css */        
+                /* padding-bottom: 3px;*/
+                /*padding-right: 3px;*/
+        }
+
+
+
+/*        ################################################################## 
+        Formatting td and div lower content  of start.t
+        
+        start.t        
+        -------
+        |     |
+        -------
+        | |   |
+        -------
+        | | | |
+        -------
+        |X|X|X|
+        -------
+        |     |
+        ------- 
+        
+*/
+
+        div.startBottomCenterHeadDiv,
+        div.startBottomRightHeadDiv,
+	div.startBottomLeftHeadDiv {
+                /* Value in custom css */
+                height: 16px;
+                padding-top: 4px;
+                padding-bottom: 4px;
+                padding-left: 20px;
+              /*  cursor: hand; */
+        }        
+
+        .startBottomCenterTd{                
+                /* Value in custom css */
+        }
+
+        
+        .startBottomRightTd{        
+                /* Value in custom css */
+                /*height: 24px;*/
+        }
+
+                
+        .templateStart .placeA {
+                margin-top: 0px;
+                padding-top: 20px;
+                padding-right: 20px;
+                padding-left: 0px;
+                padding-bottom: 20px;        
+        }
+
+        .templateStart .placeB {
+                margin-top: 0px;
+                padding-top: 20px;
+                padding-right: 20px;
+                padding-bottom: 20px;
+                padding-left: 20px;
+        }
+
+	.templateStart .placeE {
+/*                padding-bottom: 3px; */
+        }
+        
+/*        ##################################################################
+        ##################################################################
+        ################################################################## 
+        Formatting of lists
+*/
+        div.wideIconList {
+                margin-top: 0px;
+                margin-right: 0px;
+                margin-bottom: 0px;
+                margin-left: 0px;
+        }
+        
+        .placeB div.wideIconList ul {
+                padding-left: 15px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                margin-left: 15px;
+        }
+        
+        .placeB div.box div.wideIconList ul {
+                padding-left: 0px;
+                margin-top: 0px;
+                margin-bottom: 5px;
+                margin-left: 15px;
+        }
+        
+        .placeB ul.wideIconList, 
+        .placeB ul.compactIconList {
+                margin-top: 0px;
+                margin-left: 20px;
+                padding-top: 0px;
+                padding-left: 20px;
+        }
+                
+        .placeB div.box ul.wideIconList, 
+        .placeB div.box ul.compactIconList {
+                margin-left: 0px;
+                padding-left: 0px;
+        }
+        
+        .placeA .box ul.wideIconList, 
+        .placeA .box ul.compactIconList, 
+        .placeA .box ul.calendarIconList {
+                margin-left: 20px;
+                padding-left: 20px;
+        }
+        
+/* newIconList2 */
+
+a.newIconList2 {
+	padding-left: 20px;
+	line-height: 1.8em;
+	padding-bottom: 4px;
+	text-decoration: none ! important;
+}
+
+a.newIconList2:hover {
+	text-decoration: underline ! important;
+}
+
+.placeA a.newIconList2pil {
+	background: url(../graphics/arrow_icon_right_blue.gif) top left no-repeat;
+	padding-bottom: 2px;
+}
+.placeB a.newIconList2pil {
+	background: url(../graphics/arrow_icon_right_brown_tight.gif) top left no-repeat;
+	padding-bottom: 2px;
+}
+a.newIconList2pdf {
+	background: url(../graphics//objects/Lista/images/pdf.gif) top left no-repeat;
+}
+a.newIconList2doc {
+	background: url(../graphics//objects/Lista/images/word.gif) top left no-repeat;
+	padding-bottom: 2px;
+}
+a.newIconList2xls {
+	background: url(../graphics//objects/Lista/images/excel.gif) top left no-repeat;
+	padding-bottom: 2px;
+}
+a.newIconList2ppt {
+	background: url(../graphics//objects/Lista/images/powerpoint.gif) top left no-repeat;
+	padding-bottom: 2px;
+}
+a.newIconList2dat {
+	background: url(../graphics//objects/Lista/images/data.gif) top left no-repeat;
+	padding-bottom: 2px;
+}        
+        
+/* newIconList */
+ul.newIconList {
+                list-style: none;
+                margin-left: 0px; 
+        }
+
+
+ul.newIconList li {
+          background-repeat: no-repeat;
+                background-position: 1px 3px;  /* top left; ohman */
+                margin-left: 0px;      
+                padding-top: 3px;  
+                padding-bottom: 4px;
+                /*height: 25px;*/
+}
+
+ul.newIconList li a{
+        /* Value in custom css */
+        background-repeat: no-repeat;
+        background-position: 1px 3px;  /* top left; ohman */
+        /*height: 20px;*/
+        padding-top:0px;
+        padding-right:3px;
+        padding-bottom:4px;
+        padding-left: 20px;
+        display: block;  
+}
+
+ .placeB div.box ul.newIconList {
+                margin-left: 0px;
+                padding-left: 0px;
+        }
+        
+ul.newIconList li.pdf {
+        background-image: url(../graphics//objects/Lista/images/pdf.gif);
+}
+ul.newIconList li.xls {
+        background-image: url(../graphics//objects/Lista/images/excel.gif);
+}
+ul.newIconList li.ppt {
+        background-image: url(../graphics//objects/Lista/images/powerpoint.gif);
+}
+ul.newIconList li.doc {
+        background-image: url(../graphics//objects/Lista/images/word.gif);
+}
+.placeA ul.newIconList li.pil {
+        background-image: url(../graphics/arrow_icon_right_blue.gif);
+}
+.placeB ul.newIconList li.pil {
+        background-image: url(../graphics/arrow_icon_right_brown_tight.gif);
+}
+ul.newIconList li.dat {
+        background-image: url(../graphics//objects/Lista/images/data.gif);
+}
+
+        .placeA ul.iconlist, 
+        .placeA ul.iconlistword, 
+        .placeA ul.iconlistpdf, 
+        .placeA ul.iconlistexcel, 
+        .placeA ul.iconlistpowerpoint, 
+        .placeA ul.iconlistdata,
+        .placeA ul.iconList, 
+        .placeA ul.iconListWord, 
+        .placeA ul.iconListPdf, 
+        .placeA ul.iconListExcel, 
+        .placeA ul.iconListPowerpoint, 
+        .placeA ul.iconListData {
+                padding: 0px;
+                margin: 0px;
+                margin-bottom: 10px; /* ohman */
+                margin-left: 20px;
+                padding-left: 0px; /* måste testa alla plattformar*/
+        }
+
+        .placeB ul.iconlist,
+        .placeB ul.iconlistword, 
+        .placeB ul.iconlistpdf, 
+        .placeB ul.iconlistexcel, 
+        .placeB ul.iconlistpowerpoint, 
+        .placeB ul.iconlistdata,
+        .placeB ul.iconList,
+        .placeB ul.iconListWord, 
+        .placeB ul.iconListPdf, 
+        .placeB ul.iconListExcel, 
+        .placeB ul.iconListPowerpoint, 
+        .placeB ul.iconListData {
+                padding: 0px;
+                margin: 0px;
+                margin-bottom: 10px; /* ohman */
+                margin-left: 20px;
+                padding-left: 0px; /* måste testa alla plattformar*/
+        }
+        
+        .placeA .box ul.iconlist,
+        .placeA .box ul.iconList {
+                margin-left: 20px;
+                padding-left: 0px; /* måste testa alla plattformar*/
+        }
+        
+        .placeB .box ul.iconlistword, 
+        .placeB .box ul.iconlistpdf, 
+        .placeB .box ul.iconlistexcel, 
+        .placeB .box ul.iconlistpowerpoint, 
+        .placeB .box ul.iconlistdata, 
+        .placeB .box ul.iconlist,
+        .placeB .box ul.iconListWord, 
+        .placeB .box ul.iconListPdf, 
+        .placeB .box ul.iconListExcel, 
+        .placeB .box ul.iconListPowerpoint, 
+        .placeB .box ul.iconListData, 
+        .placeB .box ul.iconList {
+                margin-left: 0px;
+                padding-left: 0px; /* måste testa alla plattformar*/
+        }
+        
+        .placeB .box ul.newsList {
+                margin-left: 0px;
+                padding-left: 0px; /* PSLU måste testa alla plattformar*/
+        }
+
+        .templateStart .placeA .box ul.wideIconList, 
+        .templateStart .placeA .box ul.compactIconList {
+                margin-left: 20px;
+                padding-left: 0px;
+                margin-top:0;
+                padding-top:0;
+        }
+        
+
+        .templateStart .placeB .box ul.wideIconList, 
+        .templateStart .placeB .box ul.compactIconList {
+                margin-top: 0px;
+                margin-left: 0px;
+                padding-top: 0px;
+                padding-left: 0px;
+        }
+
+        ul.wideIconList,
+        ul.iconlist, 
+        ul.iconlistword, 
+        ul.iconlistpdf, 
+        ul.iconlistexcel, 
+        ul.iconlistpowerpoint, 
+        ul.iconlistdata,
+        ul.iconList, 
+        ul.iconListWord, 
+        ul.iconListPdf, 
+        ul.iconListExcel, 
+        ul.iconListPowerpoint, 
+        ul.iconListData,
+        ul.compactIconList {
+                list-style: none;
+        }
+        
+        ul.iconlist li,
+        ul.iconlistword li,
+        ul.iconlistpdf li,
+        ul.iconlistexcel li,
+        ul.iconlistpowerpoint li,
+        ul.iconlistdata li,
+        ul.iconList li,
+        ul.iconListWord li,
+        ul.iconListPdf li,
+        ul.iconListExcel li,
+        ul.iconListPowerpoint li,
+        ul.iconListData li,
+        ul.wideIconList li, 
+        ul.wideIconList li a,
+        ul.compactIconList li a
+        {
+                background-repeat: no-repeat;
+                background-position: 1px 3px;  /* top left; ohman */
+                margin-left: 0px;      
+                padding-top: 3px;  
+                padding-bottom: 4px;
+                /*height: 25px;*/
+        }
+        
+        ul.calendarIconList li {
+                margin-left: 0px;
+                padding-bottom: 10px;
+        }
+        
+        ul.compactIconList li {
+                margin-left: 0px;
+                padding-bottom: 5px;
+        }
+
+        ul.iconlist li a, 
+        ul.iconlistword li a, 
+        ul.iconlistpdf li a, 
+        ul.iconlistexcel li a, 
+        ul.iconlistpowerpoint li a, 
+        ul.iconlistdata li a, 
+        ul.iconList li a, 
+        ul.iconListWord li a, 
+        ul.iconListPdf li a, 
+        ul.iconListExcel li a, 
+        ul.iconListPowerpoint li a, 
+        ul.iconListData li a, 
+        ul.wideIconList li a, 
+        ul.compactIconList li a {
+                /* Value in custom css */
+							  /*height: 20px;*/
+                display: block;         
+                padding-top:0px;
+                padding-right:3px;
+                padding-bottom:4px;
+                padding-left: 20px;
+        }
+        
+        div.box div.iconlist ul.iconlist li a,
+        div.box div.iconList ul.iconList li a {
+                display: block;
+        }
+        
+        ul.linkIconList {
+                list-style: none;
+                margin-top: 0px;
+                margin-left: 0px;
+                padding-left: 0px;
+                padding-top: 0px;
+                
+        }
+        
+        ul.linkIconList li {
+                margin: 0px;
+        }
+
+        ul.linkIconList li a {
+                /* Value in custom css */
+                background-repeat: no-repeat;
+                background-position: 1px 3px;  /* center left; ohman */
+                height: 20px;
+                padding-top:3px;
+                padding-right:3px;
+                padding-bottom:3px;
+                padding-left: 20px;
+        }
+
+        .placeA .box ul.linkIconList {
+                margin-left: 20px;
+                padding-left: 0px;
+        }
+        
+        ul.startIconList {
+                font-weight: bold;
+                list-style: none;
+                margin-top: 5px; /* 5 */
+                margin-bottom: 0px;
+                margin-left: 0px;
+                padding-top: 5px; /* 5 */
+                padding-bottom: 0px;
+                padding-left: 20px;
+        }
+        
+        ul.startIconList li {
+                margin: 0px;
+        }
+        
+        ul.startIconList li a {
+                /* Value in custom css */
+                display: block;
+                background-repeat: no-repeat;
+                background-position: 2px 4px; /* center left; ohman */
+                padding-top:3px;
+                padding-right:3px;
+                padding-bottom:0px; /* 3 */
+                padding-left: 20px;
+        }
+
+        ul.langlist {
+                font-weight: bold;
+                list-style: none;
+                margin-top: 0px;
+                margin-left: 0px;
+                padding-left: 0px;
+                padding-top: 0px;
+        }
+
+        ul.langlist li {
+                margin-left: 0px;
+                
+        }
+        
+        ul.langlist li a {
+                /* Value in custom css */
+                background-repeat: no-repeat;
+                background-position: center left;
+                height: 20px;                
+                padding-top:3px;
+                padding-right:3px;
+                padding-bottom:3px;
+                padding-left: 20px;
+        }
+
+        .contentStart ul.calendarList {
+                list-style: none;
+                margin-top: 0px;
+                margin-right: 0px;
+                margin-bottom: 0px;
+                margin-left: 0px;
+                padding-top:3px;
+                padding-right:3px;
+                padding-left: 0px;
+        }
+
+        ul.calendarList li {
+                padding-bottom: 5px;
+        }
+        
+        .contentSub ul.calendarList {
+           	list-style: none;
+                padding: 0px;
+                margin: 0px;
+                margin-top: 10px;
+                margin-bottom: 10px; /* ohman */
+                margin-left: 20px;
+                padding-left: 0px; /* PSLU måste testa alla plattformar*/
+        }        
+        
+        
+
+        ul.categorylist li {
+                        
+        }
+        
+        ul.categorylist {
+                font-weight: bold;
+                list-style: outside url(../graphics/arrow_icon_right_darkbrown.gif);
+                margin-top: 20px;
+                margin-left: 20px;
+                padding-left: 20px;
+                padding-top: 0px;
+        }
+        
+        ul.categorylist li {
+                padding-bottom: 5px;
+        }
+        
+        ul.newsList {
+                list-style: none;
+                margin-top: 0px;
+                margin-right: 0px;
+                margin-bottom: 0px;
+                margin-left: 0px;
+                padding-top: 3px;
+                padding-right:6px; /* svensson  padding-right:3px; */
+                padding-left: 20px;
+        }
+                
+        ul.newsList li {
+                padding-bottom: 5px;
+        }
+        
+                
+/*        ##################################################################
+        Formatting special lists icons
+*/
+        li#lang{
+                /* Value in custom css */
+        }
+        
+        li#print {
+                /* Value in custom css */
+        }
+        
+        li#tip {
+                /* Value in custom css */
+        }
+
+/*        ################################################################## 
+        Formatting main navigation 
+*/        
+        ul.mainnav {
+                /* Value in custom css */
+                list-style: none;
+                margin: 0px;
+                padding: 0px;
+                }
+                        
+        ul.mainnav li {
+                /* Value in custom css */
+        }
+        
+        ul.mainnav li a {
+                /* Value in custom css */
+                display: block;
+                margin: 0px;
+                padding-top: 4px; 
+                padding-right: 3px; 
+                padding-bottom: 4px; 
+                padding-left: 19px;
+                font-weight: bold; 
+                }
+        
+/*        ##################################################################
+        --- subnav ---
+*/
+        ul.mainnav ul.subnav {
+                list-style: none;
+                margin: 0px;
+                padding: 0px;
+                }
+        
+        ul.mainnav ul.subnav li {
+                /* Value in custom css */
+                }
+        
+        ul.mainnav ul.subnav li a {
+                /* Value in custom css */
+                display: block;
+                margin: 0px;
+                padding-top: 4px;
+                padding-right: 3px;
+                padding-bottom: 4px;
+                padding-left: 29px;
+                }
+        
+/*        ##################################################################
+        --- subnav level 2 ---
+*/
+        ul.mainnav ul.subnav ul.subnav2 {
+                list-style: none;
+                margin: 0px;
+                padding: 0px;
+                }
+        
+        ul.mainnav ul.subnav ul.subnav2 li {
+                /* Value in custom css */
+                }
+        
+        ul.mainnav ul.subnav ul.subnav2 li a {
+                /* Value in custom css */
+                display: block;
+                margin: 0px;
+                padding-top: 4px; 
+                padding-right: 3px; 
+                padding-bottom: 4px; 
+                padding-left: 39px;
+        }
+        
+        ul.mainnav ul.subnav ul.subnav2 li a:hover {
+                text-decoration: underline;
+        }
+
+/*        ################################################################## 
+        li classes for mainnav and subnavs
+*/
+        ul.mainnav li.active a {
+                background-image: url(../graphics/blank.gif);
+                background-position: 4%;
+                background-repeat: no-repeat;
+                font-weight: bold;
+        }
+        
+        ul.mainnav li.isunder a {
+                background-image: url(../graphics/arrow_down_blue.gif);
+                background-position: 4% 8px;
+                background-repeat: no-repeat;
+                font-weight: bold;
+        }
+        
+        ul.mainnav li.isunderhassubactive a {
+                background-image: url(../graphics/arrow_down_blue.gif);
+                background-position: 4% 8px;
+                background-repeat: no-repeat;
+                font-weight: bold;
+        }
+
+        ul.mainnav li.isunderactive a {
+                background-image: url(../graphics/blank.gif);
+                background-position: 4%;
+                background-repeat: no-repeat;
+                font-weight: bold;
+        }
+        
+        ul.mainnav li.hassub a {
+                background-image: url(../graphics/arrow_blue.gif);
+                background-position: 4% 8px;
+                 background-repeat: no-repeat; 
+                font-weight: bold;
+        }
+        
+        ul.mainnav ul.subnav li.active a {
+                background-image: url(../graphics/blank.gif);
+                background-position: 4%;
+                background-repeat: no-repeat;
+                font-weight: normal;
+        }
+        
+        ul.mainnav ul.subnav li.isunder a {
+                background-image: url(../graphics/arrow_down_blue.gif);
+                background-position: 4% 8px;
+                background-repeat: no-repeat;
+                font-weight: normal;
+        }
+        
+        ul.mainnav ul.subnav li.isunderhassubactive a {
+                background-image: url(../graphics/arrow_down_blue.gif);
+                background-position: 4% 8px;
+                background-repeat: no-repeat;
+                font-weight: normal;                
+        }
+        
+        ul.mainnav ul.subnav li.isunderactive a {
+                background-image: url(../graphics/blank.gif);
+                background-position: 4%;
+                background-repeat: no-repeat;
+                font-weight: normal;
+        }
+        
+        ul.mainnav ul.subnav li.hassub a {
+                background-image: url(../graphics/arrow_blue.gif);
+                background-position: 4% 8px;
+                background-repeat: no-repeat;
+                font-weight: normal;
+        }
+        
+        ul.mainnav ul.subnav li.nosub a {
+                background-image: none;
+                background-position: 4%;
+                background-repeat: no-repeat;
+                font-weight: normal;
+        }
+        
+        ul.mainnav ul.subnav2 li.active a {
+                background-image: url(../graphics/blank.gif);
+                background-position: 4%;
+                background-repeat: no-repeat;
+                font-weight: normal;
+        }
+        
+        ul.mainnav ul.subnav2 li.isunder a {
+                background-image: url(../graphics/arrow_down_blue.gif);
+                background-position: 4% 8px;
+                background-repeat: no-repeat;
+                font-weight: normal;
+        }
+        
+        ul.mainnav ul.subnav2 li.hassub a {
+                background-image: url(../graphics/arrow_blue.gif);
+                background-position: 4% 8px;
+                background-repeat: no-repeat;
+                font-weight: normal;
+        }
+        
+        ul.mainnav ul.subnav2 li.nosub a {
+                background-image: none;
+                background-position: 4%;
+                background-repeat: no-repeat;
+                font-weight: normal;
+        }
+        .news_td_start
+	{
+        }
+        .news_td
+	{
+                padding-left: 10px;
+        }
+	.news_table
+	{
+		margin-left: 20px;
+	}
+	.news_table td
+	{
+		vertical-align: top;
+		padding-bottom: 10px;
+	}
+      .newsListSmall p {
+                margin-top: 0px;
+                margin-bottom: 0px;
+                padding-top: 0px;
+                padding-bottom: 0px;
+            }
+
+
+
+
+.placeA span.newIconList3pil {
+	display: block;
+	background: url(../graphics/arrow_icon_right_blue.gif) top left no-repeat;
+	padding-bottom: 2px;
+	padding-left: 20px;
+}
+.placeB span.newIconList3pil {
+	background: url(../graphics/arrow_icon_right_brown_tight.gif) top left no-repeat;
+	padding-bottom: 2px;
+	padding-left: 20px;
+	display: block;
+}
+.placeA span.newIconList3pil
+{
+	background: url(../graphics/arrow_icon_right_blue.gif) top left no-repeat;
+	padding-bottom: 2px;
+	display: block;
+	padding-left: 20px;
+}
+.placeB span.newIconList3pil {
+	background: url(../graphics/arrow_icon_right_brown_tight.gif) top left no-repeat;
+	padding-bottom: 2px;
+	display: block;
+	padding-left: 20px;
+}
+span.newIconList3pdf {
+	background: url(../graphics//objects/Lista/images/pdf.gif) top left no-repeat;
+display: block;
+padding-left: 20px;
+
+}
+span.newIconList3doc {
+	background: url(../graphics//objects/Lista/images/word.gif) top left no-repeat;
+display: block;
+padding-left: 20px;
+	padding-bottom: 2px;
+}
+span.newIconList3xls {
+	background: url(../graphics//objects/Lista/images/excel.gif) top left no-repeat;
+	padding-bottom: 2px;
+display: block;
+padding-left: 20px;
+
+}
+span.newIconList3ppt {
+	background: url(../graphics//objects/Lista/images/powerpoint.gif) top left no-repeat;
+	padding-bottom: 2px;
+display: block;
+padding-left: 20px;
+
+}
+span.newIconList3dat {
+	background: url(../graphics//objects/Lista/images/data.gif) top left no-repeat;
+	padding-bottom: 2px;
+display: block;
+padding-left: 20px;
+
+}
+
+	
+
+		/* ******************************************************************** */
+		/*									*/
+		/*			Anstalld.t layout				*/
+		/*									*/
+		/* ******************************************************************** */
+
+.anstalld p,
+.anstalld h1,
+.anstalld h2,
+.anstalld h3,
+.anstalld h4
+{
+	padding: 0px;
+	padding-left: 10px;
+}
+
+
+.anstalld .comment
+{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin-bottom: 8px;
+}
+.normal_bred .comment
+{
+	padding-left: 20px;
+}
+
+.anstalld .placeA
+{
+	padding: 30px 7px 0px 7px;
+	width: auto;
+}
+
+.newsTop
+{
+	padding: 0px;
+}
+.newsTop .headline,
+.newsTop .headline a
+{
+	margin-bottom: 5px;
+}
+.anstalld .newsTop
+{
+	padding: 10px;
+}
+
+.anstalld .newsTop
+{
+	border-top: 1px solid #a5bdd6;
+	border-bottom: 1px solid #a5bdd6;
+}
+
+.newsTop h3,
+.anstalld .newsTop h3
+{
+	color: #000080;
+	line-height: 1.2em;
+	margin-bottom: 5px;
+}
+
+.newsTop img,
+.anstalld .newsTop img
+{
+	float: left;
+	padding-right: 7px;
+	border: 0px;
+}
+
+.newsTop .text,
+.anstalld .newsTop .text
+{
+	margin-bottom: 5px;
+}
+.anstalld ul.calendarList,
+.anstalld ul.newsList
+{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.anstalld ul.calendarList li,
+.anstalld ul.newsList li
+{
+	padding: 0px 10px;
+}
+
+ul.newsList .comment p
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+.anstalld ul.newsList li.blue
+{
+	padding: 10px;
+}
+	
+
+.ingress,
+.newsShow .ingress
+{
+	margin-bottom: 15px;
+	padding-left: 20px;
+}
+.anstalld .newsShow .ingress
+{
+	padding-left: 10px;
+}
+.newsShowImage
+{
+	float: right;
+	margin: 5px 10px 10px 10px;;
+}
+.newsShow .comment,
+.newsShow .date
+{
+	padding-left: 20px;
+}
+.newsShow .headline
+{
+	padding-left: 20px;
+}
+.anstalld .newsShow .comment,
+.anstalld .newsShow .date,
+.anstalld .newsShow .headline
+{
+	padding: 0px 10px;
+}
+.anstalld .showTitle
+{
+	margin-bottom: 8px;
+}
+
+.date,
+.anstalld .date
+{
+	/*margin-bottom: 5px;*/
+}
+.normal_bred .date
+{
+	padding-left: 20px;
+}
+
+.follow img
+{
+	margin-top: 1px;
+}
+
+.newsSingle p
+{
+	padding-top: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 10px;
+}
+
+
+
+
+		/* ******************************************************************** */
+		/*									*/
+		/*				LUUR search				*/
+		/*									*/
+		/* ******************************************************************** */
+
+
+.luur_searchfield input
+{
+	margin-left: 10px;
+}
+
+.luur_table td
+{
+	vertical-align: top;
+}
+
+.luur_result
+{
+	margin-left: 20px;
+	width: 490px;
+}
+
+.luur_result td
+{
+	background-color: #DFEAF6;  /* Tidigare  #eff7ff; */
+	vertical-align: top;
+}
+
+.luur_top
+{
+	background-color: #a5bdd6!important;
+	font-weight: bold;
+	padding-bottom: 3px;
+}
+
+.luur_desc
+{
+	text-align: right;
+	font-weight: bold;
+	padding-right: 4px;
+}
+
+.luur_middleresult
+{
+	width: 100%;
+}
+
+.luur_browse a, .luur_result a
+{
+	text-decoration: none!important;
+}
+
+.luur_browse a:hover, .luur_result a:hover
+{
+	text-decoration: underline!important;
+}
+
+.luur_browse a img, .luur_result a img
+{
+	border: 0px;
+}
+
